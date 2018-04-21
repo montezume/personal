@@ -12,7 +12,6 @@
   "dependencies": {
     "chokidar": "2.0.3",
     "htmr": "0.6.3",
-    "jdown": "0.1.0",
     "prop-types": "^15.6.1",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
@@ -23,7 +22,10 @@
     "styled-components": "^3.2.6"
   },
   "devDependencies": {
+    "camelcase": "^5.0.0",
     "eslint-config-react-tools": "1.x.x",
+    "metalsmith": "^2.3.0",
+    "metalsmith-markdown": "^0.2.2",
     "serve": "^6.1.0"
   }
 }

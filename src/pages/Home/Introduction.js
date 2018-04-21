@@ -2,13 +2,20 @@ import React from 'react'
 import convert from 'htmr'
 import styled from 'styled-components'
 
-import { H1, P, Section, SectionInner } from '../../elements'
+import { H1, Section, SectionInner } from '../../elements'
 
 const LineCtn = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
 `
+
+const Block = styled.div`
+  p {
+    margin: 12px 0;
+  }
+`
+
 const Line = styled.span`
   position: relative;
   flex: 1;
@@ -28,14 +35,17 @@ const Line = styled.span`
 const Introduction = ({ intro }) => (
   <Section>
     <SectionInner>
-      <LineCtn>
-        <H1>
-          { intro.content.header }
-        </H1>
-        <Line />
-      </LineCtn>
-      <P>{intro.content.description}</P>
-      { convert(intro.contents) }
+      <H1>
+        <LineCtn>
+          <span>
+            { intro.content.header }
+          </span>
+          <Line />
+        </LineCtn>
+      </H1>
+      <Block>
+        { convert(intro.contents) }
+      </Block>
     </SectionInner>
   </Section>
 )
