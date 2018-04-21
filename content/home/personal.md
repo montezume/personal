@@ -33,6 +33,6 @@ content:
 
 I'm currently working with [trecker.com](https://trecker.com) in Berlin, Germany, helping to digitize agriculture through innovative SaaS solutions.
 
-Before moving to Berlin, I worked with [Automotive Data Solutions](https://www.adsdata.ca/) in Montreal, Québec for two years, creating best in class web applications for the automotive sector.
+Before moving to Berlin, I worked with [Automotive Data Solutions](https://www.adsdata.ca/) in Montreal, Québec for two years, creating best-in-class web applications for the automotive sector.
 
 See where my travels have taken me on [instagram](https://www.instagram.com/montezume).
