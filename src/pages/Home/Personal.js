@@ -29,7 +29,7 @@ const Sect = styled.section`
   margin: 0 auto;
   width: 100%;
   flex-direction: column;
-  padding: 0 40px;
+  padding: 40px;
 
   ${breakpoint('medium', `
     flex-direction: row;
@@ -40,8 +40,13 @@ const Sect = styled.section`
 
 const Left = styled.div`
   ${breakpoint('medium', `
+    width: 400px;
+  `)}
+
+  ${breakpoint('large', `
     width: 500px;
   `)}
+
 `
 
 const ImageSection = styled.div`

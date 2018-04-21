@@ -14,7 +14,7 @@ export const StyledSectionInner = styled.div`
   padding: 60px 40px 0 40px;
 
   ${breakpoint('medium', `
-    padding: 120px 30px 140px 30px;
+    padding: 100px 30px 60px 30px;
   `)}
 `
 

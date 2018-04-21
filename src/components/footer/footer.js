@@ -3,21 +3,32 @@ import styled from 'styled-components'
 
 import color from '../../theme/color'
 
+import breakpoint from '../../theme/breakpoint'
+
 const StyledFooter = styled.footer`
   display: flex;
   align-items: center;
   margin-top: 24px;
-  padding-left: 12px;
+  padding-left: 16px;
   width: 100%;
   height: 40px;
   background-color: ${color.blue}
+
+  ${breakpoint('medium', `
+    padding-left: 40px;
+  `)}
+
 `
 
 const A = styled.a`
   margin-left: auto;
   height: 16px;
   width: 16px;
-  margin-right: 12px;
+  margin-right: 16px;
+
+  ${breakpoint('medium', `
+    margin-right: 40px;
+  `)}
 `
 
 const GithubLogo = styled.span`
