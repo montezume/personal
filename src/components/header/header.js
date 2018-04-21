@@ -1,8 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import color from '../../theme/color'
+
 const StyledHeader = styled.nav`
-  background-color: #add1ec;
+  background-color: ${color.blue};
   height: 16px;
   width: 100%;
   padding: 5px 10px;
