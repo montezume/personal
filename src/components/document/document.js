@@ -16,8 +16,8 @@ class Document extends Component {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 
           <title>malcolm laing</title>
-          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.ico" />
-          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.ico" />
+          <link rel="icon" type="image/png" sizes="32x32" href="https://montezume.github.io/personal/favicon-32x32.ico" />
+          <link rel="icon" type="image/png" sizes="16x16" href="https://montezume.github.io/personal/favicon-16x16.ico" />
 
           <meta property="og:site_name" content="malcolmlaing" />
           <meta property="og:title" content="malcolm laing" />

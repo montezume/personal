@@ -53,6 +53,7 @@ export default {
     title: 'Malcolm Blog',
   }),
   getRoutes,
+  siteRoot: 'https://montezume.github.io/personal',
   renderToHtml,
   Document,
 }
