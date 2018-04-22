@@ -6,7 +6,6 @@ export const Grid = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  // justify-content: ${props => props.alignLeft ? 'flex-start' : 'flex-end'};
 `
 
 export const Container = styled.div`

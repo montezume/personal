@@ -9,9 +9,11 @@ chokidar.watch('content').on('all', () => reloadRoutes())
 
 const getRoutes = async () => {
   const { posts, home, about } = await jdown('../../content')
+  const { PUBLIC_URL } = process.env
+
   return [
     {
-      path: '/',
+      path: `${PUBLIC_URL}/`,
       component: 'src/pages/Home',
       getData: () => ({
         ...home,
